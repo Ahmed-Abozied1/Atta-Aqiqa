@@ -1,0 +1,87 @@
+.footerContainer {
+  /* background: #c8a182; */
+  /* background-color: #1f3145; */
+  background-color: #606d63;
+  padding: 100px 0;
+  position: relative;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  color: #fff;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footerItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.telNumber {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.socialsBlock {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.socialLogos {
+  display: flex;
+  gap: 30px;
+}
+
+.socialIcon {
+  font-size: 40px;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.socialIcon:hover {
+  transform: scale(1.1);
+}
+
+.brandBlock {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+   color: #502807; 
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    
+
+  }
+
+  .footerItem {
+    font-size: 18px;
+  }
+
+  .socialIcon {
+    font-size: 36px;
+  }
+
+  .brandBlock {
+    position: static;
+    margin-top: 30px;
+  }
+
+}
+

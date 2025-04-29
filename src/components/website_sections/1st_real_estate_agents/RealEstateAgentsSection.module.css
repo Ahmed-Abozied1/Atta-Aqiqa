@@ -1,0 +1,67 @@
+.sectionContainer {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover  ;
+background-position: center center;
+background-attachment: fixed;
+    display: flex;
+  align-items: center; /* توسيط عمودي للعناصر داخل الحاوية */
+  justify-content: center; /* توسيط أفقي للعناصر داخل الحاوية */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* تراكب شفاف */
+  display: flex;
+  align-items: center; /* توسيط عمودي للعناصر المتداخلة */
+  justify-content: center; /* توسيط أفقي للعناصر المتداخلة */
+  text-align: center;
+  padding: 0 20px;
+}
+
+.textBlock {
+  color: white;
+  text-align: center;
+  direction: rtl;
+  /* لا حاجة لتحديد عرض هنا عشان النص ياخد المساحة اللي محتاجها ويتوسط */
+}
+
+.titleBig {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  /* هنخلي العرض تلقائي عشان يتوسط بشكل صحيح */
+  /* width: 70%; */
+}
+
+.orangeTitleText {
+  color: #c8a180;
+}
+
+.orangeTitleText2 {
+  color: white;
+}
+
+.littleheader {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #a3c89e;
+  /* هنخلي العرض تلقائي عشان يتوسط بشكل صحيح */
+  /* width: 70%; */
+}
+
+/* استجابة للشاشات الصغيرة */
+@media screen and (max-width: 768px) {
+  .titleBig {
+    font-size: 1.5rem;
+  }
+
+  .littleheader {
+    font-size: .8rem;
+  }
+}

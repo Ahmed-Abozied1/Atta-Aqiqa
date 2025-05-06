@@ -27,7 +27,8 @@ export const RealEstateAgentsSection = () => {
               دي كمان خير بيوصل لقلوب ناس محتاجين في أفريقيا            </span> 
           </h1>
           <p className={classes.littleheader}>
-          الخير يوصل صح، وإنت مرتاح البال               </p>
+          مَع كُلِّ عَطاءٍ، تُرْسَمُ بَسْمَةٌ تَغْمُرُ الإِنْسانَ دِفْئًا وَأَمَلًا
+             </p>
         </motion.div>
       </div>
     </motion.div>

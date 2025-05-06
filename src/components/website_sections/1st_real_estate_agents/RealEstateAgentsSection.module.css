@@ -58,10 +58,21 @@ background-attachment: fixed;
 /* استجابة للشاشات الصغيرة */
 @media screen and (max-width: 768px) {
   .titleBig {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.8;
   }
 
+
+  
   .littleheader {
     font-size: .8rem;
+  }
+  
+
+  .sectionContainer {
+    background-attachment: scroll;
+
+    height: auto; /* يريح من مشاكل الطول في الجوال */
+    min-height: 100dvh; /* لكن نحافظ على الظهور الكامل */
   }
 }

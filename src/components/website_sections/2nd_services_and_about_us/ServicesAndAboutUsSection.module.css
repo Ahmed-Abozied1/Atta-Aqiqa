@@ -169,9 +169,8 @@
 }
 .aboutUsImg {
     width: 100%;
-    max-width: 581px;
-    height: 804px;
     color: #5c3d2c;
+background-size: cover;
 
 }
 
@@ -198,11 +197,16 @@
         padding: 60px 0; /* تقلل المسافة للموبايل والتابلت */
 
     }
-
+    .aboutUsDescText{
+       
+        color: #606d63;
+    
+    
+    }
     .bigText {
         font-size: 40px;
         font-weight: 600;
-        color: #5c3d2c;
+        color: #112711;
     }
 
     .smallText {
@@ -250,7 +254,8 @@
     .aboutUsTitle {
         font-size: 40px;
         font-weight: 600;
-        color: #5c3d2c;
+        color: #112711;
+
     }
 
     .aboutUsValues {
@@ -282,15 +287,21 @@
         padding: 10px 0; /* تقلل المسافة للموبايل والتابلت */
 
     }
+    .bigText {
+        font-size: 40px;
+        font-weight: 600;
+        color: #112711;
+    }
     .aboutUsDescText {
         font-size: 22px;
         line-height: 1.5;
     
         max-width: 400px;
-        color: #a76f42;
+        color: #606d63;
+
         text-align: center;
     }
-
+    
     .valueSymbol {
         width: 40px;
     }

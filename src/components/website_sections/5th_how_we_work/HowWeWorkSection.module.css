@@ -127,7 +127,9 @@
     }
     
     .sectionTitle {
-        font-size: 30px;
+        font-size: 40px;
+        font-weight: 600;
+        color: #112711;
     }
 
     .bgText {
@@ -147,7 +149,8 @@
 .sectionTitle{
     font-size: 40px;
     font-weight: 600;
-    color: #5c3d2c;
+    color: #112711;
+
 }
     .valueTitle {
         font-size: 20px;
@@ -157,7 +160,7 @@
         font-size: 20px;
         line-height: 1.55;
         max-width: 580px;
-        color: #a76f42;
+        color: #606d63;
     }
     
     .bgText {

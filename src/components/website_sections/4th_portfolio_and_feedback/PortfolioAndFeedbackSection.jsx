@@ -8,9 +8,11 @@ import fourthPic from "./images/new-photo-4.jpg";
 import fifthPic from "./images/new-photo-5.jpg";
 import sixthPic from "./images/new-photo-6.jpg";
 import seventhPic from "./images/new-photo-7.jpg";
+import eightPic from "./images/new-photo-8.jpg";
+import ninePic from "./images/new-photo-9.jpg";
 
 export const PortfolioAndFeedbackSection = forwardRef((props, ref) => {
-  const pictures = [firstPic, secondPic, thirdPic, fourthPic, fifthPic, sixthPic, seventhPic];
+  const pictures = [firstPic, secondPic, thirdPic, fourthPic, fifthPic, sixthPic, seventhPic,eightPic,ninePic];
 
   return (
     <motion.div

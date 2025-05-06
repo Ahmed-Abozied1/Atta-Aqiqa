@@ -130,7 +130,7 @@
   background-color: #112711;
   color: white;
   border: none;
-  padding: 0.8rem 1.5rem;
+  padding: 0.3rem 1.2rem;
   border-radius: 5px;
   cursor: pointer;
   font-size: 1.1rem;
@@ -138,6 +138,7 @@
   margin-right: 6rem; /* لدفع الزر إلى أقصى اليسار */
   transition: background-color 0.3s ease;
 }
+
 
 .bookNowBtn:hover {
     background-color: rgb(16, 50, 2);
@@ -163,7 +164,7 @@
     right: 0;
     width: 100%;
     height: calc(100vh - 60px);
-    background-color: #1f3145;
+    background-color: #606d63;
     list-style: none;
     padding: 20px 0 0; /* إضافة padding علوي */
     margin: 0;
@@ -252,10 +253,10 @@
   }
 
   .bookNowBtn {
-    background-color: #ccd5ae;
-    color: white;
+    background-color: #e0e0e0;
+    color: #000;
     border: none;
-    padding: 1rem .3rem;
+    padding: .7rem .1rem;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1.2rem;
@@ -267,6 +268,6 @@
   }
 
   .bookNowBtn:hover {
-    background-color: #183303;
+    background-color: #acb5a4;
   }
 }

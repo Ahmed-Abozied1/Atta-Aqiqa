@@ -22,7 +22,7 @@ export const RealEstateAgentsSection = () => {
         >
           <h1 className={classes.titleBig}>
             <span className={classes.orangeTitleText2}>
-            خلي فرحة العقيقة توصل لبعيد, {" "}
+            خلي فرحة العقيقة توصل لبعيد، {" "}
               <span className={classes.orangeTitleText}> </span>
               دي كمان خير بيوصل لقلوب ناس محتاجين في أفريقيا            </span> 
           </h1>

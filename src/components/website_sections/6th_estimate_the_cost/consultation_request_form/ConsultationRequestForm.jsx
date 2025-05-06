@@ -50,6 +50,7 @@ export const ConsultationRequestForm = () => {
         setName("");
         setIsNameEmpty(true);
         setComment("");
+        setPhoneNumber("");
         setLoading(false);
         setShowPopup(true);
 

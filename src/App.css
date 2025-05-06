@@ -107,7 +107,7 @@ input[type="checkbox"]:checked {
   font-size: 20px;
   color: #444;
   font-family: 'Cairo', sans-serif;
-  background-color: #aea095;
+  background-color:  #112711;
 }
 
 /* Spinner style */
@@ -115,7 +115,7 @@ input[type="checkbox"]:checked {
   width: 60px;
   height: 60px;
   border: 6px solid #ccc;
-  border-top: 6px solid #aea095;
+  border-top: 6px solid  #112711;;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }

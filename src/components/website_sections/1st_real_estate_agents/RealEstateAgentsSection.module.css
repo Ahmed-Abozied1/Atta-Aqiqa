@@ -1,13 +1,16 @@
 .sectionContainer {
   position: relative;
   min-height: 100vh;
-  background-size: cover  ;
-background-position: center center;
-background-attachment: fixed;
-    display: flex;
-  align-items: center; /* توسيط عمودي للعناصر داخل الحاوية */
-  justify-content: center; /* توسيط أفقي للعناصر داخل الحاوية */
+  background-size: cover;
+ 
+  background-position: center center;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .overlay {
   position: absolute;
@@ -50,7 +53,7 @@ background-attachment: fixed;
 .littleheader {
   font-size: 1.5rem;
   line-height: 1.6;
-  color: #a3c89e;
+  color: #bfccbf;
   /* هنخلي العرض تلقائي عشان يتوسط بشكل صحيح */
   /* width: 70%; */
 }

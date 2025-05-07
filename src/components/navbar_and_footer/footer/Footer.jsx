@@ -30,27 +30,22 @@ export const Footer = forwardRef((props, ref) => {
 
 <div className={`${classes.footerItem} ${classes.socialsBlock}`}>
 <FontAwesomeIcon icon={faEnvelope} className={classes.socialIcon} />
-<p className={classes.telNumber}>ataa.aqiqa@outlook.com</p>
+<p className={classes.telNumber}>info@ataa-aqiqa.com</p>
 </div>
 
 <div className={`${classes.footerItem} ${classes.socialsBlock}`}>
-  <motion.div 
+  <div 
     className={classes.socialLogos} 
-    initial={{ opacity: 0, y: 20 }} 
-    whileInView={{ opacity: 1, y: 0 }} 
-    transition={{ delay: 0.3, duration: 0.8 }}
   >
-    <a href={"https://www.instagram.com/ataa.aqiqa"} target="blanc">
+    <a href={"https://www.instagram.com/ataa.aqiqa"} target="blanc" rel="noopener noreferrer">
       <FontAwesomeIcon icon={faInstagram} className={classes.socialIcon} />
     </a>
-    <a href="https://www.facebook.com/ataa.aqiqa" target="blanc">
+    <a href="https://www.facebook.com/ataa.aqiqa" target="blanc" rel="noopener noreferrer">
       <FontAwesomeIcon icon={faFacebook} className={classes.socialIcon} />
     </a>
-    {/* <a href="https://www.tiktok.com/@suhail_realestate?_t=ZS-8vYdr5zf45a&_r=1" target="blanc">
-      <FontAwesomeIcon icon={faTiktok} className={classes.socialIcon} />
-    </a> */}
-  </motion.div>
-  <p>تابعنا على منصات التواصل الاجتماعي</p>
+   
+  </div>
+  <p  className={classes.telNumber}>تابعنا على منصات التواصل الاجتماعي</p>
 
 </div>
 

@@ -30,7 +30,7 @@ export const Footer = forwardRef((props, ref) => {
 
 <div className={`${classes.footerItem} ${classes.socialsBlock}`}>
 <FontAwesomeIcon icon={faEnvelope} className={classes.socialIcon} />
-<p className={classes.telNumber}>info@ataa-aqiqa.com</p>
+<p className={classes.telNumber}>ataa.aqiqa@outlook.com</p>
 </div>
 
 <div className={`${classes.footerItem} ${classes.socialsBlock}`}>
